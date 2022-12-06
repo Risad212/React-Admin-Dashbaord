@@ -9,7 +9,9 @@ const App = () => {
        <Topbar />
        <div className="container">
           <Sidebar />
-           
+          <div className="othersPage">
+             <h2>Page</h2>
+          </div>
        </div>
     </div>
   );
