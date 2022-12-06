@@ -1,6 +1,4 @@
 .container{
     display: flex;
-}
-.othersPage{
-    flex: 5;
+    margin-top: 10px;
 }
