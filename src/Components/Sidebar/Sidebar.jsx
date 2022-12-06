@@ -21,27 +21,28 @@ const Sidebar = () => {
               <div className="sidebarMenu">
                  <h3 className="sidebarTitle">Quick Menu</h3>
                  <ul className="sidebarList">
-                    <li className="sidebarListItem"><LineStyleIcon className='sidebarIcon'/>Home</li>
-                    <li className="sidebarListItem"><TimelineIcon className='sidebarIcon'/>Analytics</li>
-                    <li className="sidebarListItem"><TrendingUpIcon className='sidebarIcon'/>Sales</li>
+                    <li className="sidebarListItem"><LineStyleIcon className='sidebarIcon'/>Users</li>
+                    <li className="sidebarListItem"><TimelineIcon className='sidebarIcon'/>Products</li>
+                    <li className="sidebarListItem"><TrendingUpIcon className='sidebarIcon'/>Transactions</li>
+                    <li className="sidebarListItem"><TrendingUpIcon className='sidebarIcon'/>Reports</li>
                  </ul>
               </div>
               {/*-- menu --*/}
               <div className="sidebarMenu">
                  <h3 className="sidebarTitle">Notification</h3>
                  <ul className="sidebarList">
-                    <li className="sidebarListItem"><LineStyleIcon className='sidebarIcon'/>Home</li>
-                    <li className="sidebarListItem"><TimelineIcon className='sidebarIcon'/>Analytics</li>
-                    <li className="sidebarListItem"><TrendingUpIcon className='sidebarIcon'/>Sales</li>
+                    <li className="sidebarListItem"><LineStyleIcon className='sidebarIcon'/>Mail</li>
+                    <li className="sidebarListItem"><TimelineIcon className='sidebarIcon'/>Feedback</li>
+                    <li className="sidebarListItem"><TrendingUpIcon className='sidebarIcon'/>Messages</li>
                  </ul>
               </div>
               {/*-- menu --*/}
               <div className="sidebarMenu">
                  <h3 className="sidebarTitle">Staff</h3>
                  <ul className="sidebarList">
-                    <li className="sidebarListItem"><LineStyleIcon className='sidebarIcon'/>Home</li>
+                    <li className="sidebarListItem"><LineStyleIcon className='sidebarIcon'/>Manege</li>
                     <li className="sidebarListItem"><TimelineIcon className='sidebarIcon'/>Analytics</li>
-                    <li className="sidebarListItem"><TrendingUpIcon className='sidebarIcon'/>Sales</li>
+                    <li className="sidebarListItem"><TrendingUpIcon className='sidebarIcon'/>Reports</li>
                  </ul>
               </div>
             </div> 
