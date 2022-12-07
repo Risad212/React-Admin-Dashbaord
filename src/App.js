@@ -2,17 +2,23 @@ import React from 'react';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Topbar from './Components/Topbar/Topbar';
 import './App.css';
-import Home from './Pages/Home';
+import Home from './Pages/home/Home';
+import {BrowserRouter,Route,Routes} from "react-router-dom";
+
 
 const App = () => {
   return (
-    <div>
+    <BrowserRouter>
        <Topbar />
-       <div className="container">
+        <div className="container">
           <Sidebar />
-          <Home />
+          {/*-- started routing ---*/}
+          <Routes>
+             <Route path="/" element={<Home />} />
+             <Route path="/user" element={<Home />} />
+          </Routes>
        </div>
-    </div>
+    </BrowserRouter>
   );
 };
 
