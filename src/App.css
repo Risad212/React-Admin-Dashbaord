@@ -1,3 +1,6 @@
+ul{
+    list-style: none;
+}
 .container{
     display: flex;
     margin-top: 10px;
