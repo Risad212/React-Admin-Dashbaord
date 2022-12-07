@@ -2,7 +2,7 @@ import React from 'react';
 import Chart from '../Components/chart/Chart';
 import FeatureInfo from '../Components/featureinfo/FeatureInfo';
 import './home.css';
-import { UserData } from '../Data/dummyData';
+import { UserData } from '../Data/UserAnalyticsData';
 
 const Home = () => {
     return (
