@@ -15,7 +15,7 @@ const App = () => {
           <Sidebar />
           {/*-- started routing ---*/}
           <Routes>
-             <Route path="/" element={<Home />} />
+             <Route exact path="/" element={<Home />} />
              <Route path="/user" element={<UserList />} />
           </Routes>
        </div>
