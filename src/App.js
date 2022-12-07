@@ -4,6 +4,7 @@ import Topbar from './Components/Topbar/Topbar';
 import './App.css';
 import Home from './Pages/home/Home';
 import {BrowserRouter,Route,Routes} from "react-router-dom";
+import UserList from './Pages/UserList/UserList';
 
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
           {/*-- started routing ---*/}
           <Routes>
              <Route path="/" element={<Home />} />
-             <Route path="/user" element={<Home />} />
+             <Route path="/user" element={<UserList />} />
           </Routes>
        </div>
     </BrowserRouter>
