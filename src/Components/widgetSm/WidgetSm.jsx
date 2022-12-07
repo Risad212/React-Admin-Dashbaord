@@ -14,7 +14,7 @@ const WidgetSm = () => {
                         <span className="widgetSmUserTitle">Softoware Engineer</span>
                     </div>
                     <button className="widgetSmButton">
-                        <VisibilityIcon />
+                        <VisibilityIcon className="widgetSmIcon"/>
                         Display
                     </button>
                 </li>
@@ -26,7 +26,7 @@ const WidgetSm = () => {
                         <span className="widgetSmUserTitle">Softoware Engineer</span>
                     </div>
                     <button className="widgetSmButton">
-                        <VisibilityIcon />
+                        <VisibilityIcon className="widgetSmIcon"/>
                         Display
                     </button>
                 </li>
@@ -38,7 +38,7 @@ const WidgetSm = () => {
                         <span className="widgetSmUserTitle">Softoware Engineer</span>
                     </div>
                     <button className="widgetSmButton">
-                        <VisibilityIcon />
+                        <VisibilityIcon className="widgetSmIcon"/>
                         Display
                     </button>
                 </li>
@@ -50,7 +50,7 @@ const WidgetSm = () => {
                         <span className="widgetSmUserTitle">Softoware Engineer</span>
                     </div>
                     <button className="widgetSmButton">
-                        <VisibilityIcon />
+                        <VisibilityIcon className="widgetSmIcon"/>
                         Display
                     </button>
                 </li>
@@ -62,7 +62,7 @@ const WidgetSm = () => {
                         <span className="widgetSmUserTitle">Softoware Engineer</span>
                     </div>
                     <button className="widgetSmButton">
-                        <VisibilityIcon />
+                        <VisibilityIcon className="widgetSmIcon"/>
                         Display
                     </button>
                 </li>
