@@ -3,7 +3,7 @@ import './Sidebar.css';
 import LineStyleIcon from '@material-ui/icons/LineStyle';
 import TimelineIcon from '@material-ui/icons/Timeline';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
-
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     return (
@@ -21,7 +21,7 @@ const Sidebar = () => {
               <div className="sidebarMenu">
                  <h3 className="sidebarTitle">Quick Menu</h3>
                  <ul className="sidebarList">
-                    <li className="sidebarListItem"><LineStyleIcon className='sidebarIcon'/>Users</li>
+                    <Link to="/user" className='link'><li className="sidebarListItem"><LineStyleIcon className='sidebarIcon'/>Users</li></Link>
                     <li className="sidebarListItem"><TimelineIcon className='sidebarIcon'/>Products</li>
                     <li className="sidebarListItem"><TrendingUpIcon className='sidebarIcon'/>Transactions</li>
                     <li className="sidebarListItem"><TrendingUpIcon className='sidebarIcon'/>Reports</li>
