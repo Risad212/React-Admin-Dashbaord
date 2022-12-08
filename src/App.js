@@ -6,6 +6,7 @@ import Home from './Pages/home/Home';
 import {BrowserRouter,Route,Routes} from "react-router-dom";
 import UserList from './Pages/UserList/UserList';
 import User from './Pages/User/User';
+import NewUser from './Pages/newUserPage/NewUser';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
              <Route exact path="/" element={<Home />} />
              <Route path="/user" element={<UserList />} />
              <Route path="/user/:userId" element={<User />} />
+             <Route path="/newuser" element={<NewUser />} />
           </Routes>
        </div>
     </BrowserRouter>
