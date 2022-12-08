@@ -12,7 +12,7 @@ const Sidebar = () => {
               <div className="sidebarMenu">
                  <h3 className="sidebarTitle">Dashboard</h3>
                  <ul className="sidebarList">
-                    <li className="sidebarListItem active"><LineStyleIcon className='sidebarIcon'/>Home</li>
+                    <Link to="/" className='link'><li className="sidebarListItem active"><LineStyleIcon className='sidebarIcon'/>Home</li></Link>
                     <li className="sidebarListItem"><TimelineIcon className='sidebarIcon'/>Analytics</li>
                     <li className="sidebarListItem"><TrendingUpIcon className='sidebarIcon'/>Sales</li>
                  </ul>
@@ -22,7 +22,7 @@ const Sidebar = () => {
                  <h3 className="sidebarTitle">Quick Menu</h3>
                  <ul className="sidebarList">
                     <Link to="/user" className='link'><li className="sidebarListItem"><LineStyleIcon className='sidebarIcon'/>Users</li></Link>
-                    <li className="sidebarListItem"><TimelineIcon className='sidebarIcon'/>Products</li>
+                    <Link to="/product" className='link'><li className="sidebarListItem"><TimelineIcon className='sidebarIcon'/>Products</li></Link>
                     <li className="sidebarListItem"><TrendingUpIcon className='sidebarIcon'/>Transactions</li>
                     <li className="sidebarListItem"><TrendingUpIcon className='sidebarIcon'/>Reports</li>
                  </ul>
